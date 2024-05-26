@@ -1,0 +1,144 @@
+﻿@page
+@model CraftX.Pages.UserManagement.UserManagementCreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+@* 
+<h1>Create</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="User.USERID" class="control-label"></label>
+                <input asp-for="User.USERID" class="form-control" />
+                <span asp-validation-for="User.USERID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.NICKNAME" class="control-label"></label>
+                <input asp-for="User.NICKNAME" class="form-control" />
+                <span asp-validation-for="User.NICKNAME" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.EMAIL" class="control-label"></label>
+                <input asp-for="User.EMAIL" class="form-control" />
+                <span asp-validation-for="User.EMAIL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.PASSWORD" class="control-label"></label>
+                <input asp-for="User.PASSWORD" class="form-control" />
+                <span asp-validation-for="User.PASSWORD" class="text-danger"></span>
+            </div>
+<!--            <div class="form-group">
+                <label asp-for="User.JOINDATE" class="control-label"></label>
+                <input asp-for="User.JOINDATE" class="form-control" />
+                <span asp-validation-for="User.JOINDATE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.USERAUTH" class="control-label"></label>
+                <select asp-for="User.USERAUTH" class="form-control"></select>
+                <span asp-validation-for="User.USERAUTH" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.PROFILEPICTUREPATH" class="control-label"></label>
+                <input asp-for="User.PROFILEPICTUREPATH" class="form-control" />
+                <span asp-validation-for="User.PROFILEPICTUREPATH" class="text-danger"></span>
+                        </div> -->
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./UserManagementList">Back to List</a>
+</div> *@
+
+<div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="card-header"><h3 class="text-center font-weight-light my-4">Create Account</h3></div>
+                            <div class="card-body">
+                                <form method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="User.USERID" class="form-control" type="text" placeholder="Enter your ID" />
+                                        <label>ID</label>
+                                        <span asp-validation-for="User.USERID" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="User.NICKNAME" class="form-control" type="text" placeholder="Enter your NickName" />
+                                        <label>NICKNAME</label>
+                                        <span asp-validation-for="User.NICKNAME" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="User.EMAIL" class="form-control" type="text" placeholder="Enter your Email" />
+                                        <label>EMAIL</label>
+                                        <span asp-validation-for="User.EMAIL" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="User.PASSWORD" class="form-control" type="password" placeholder="Enter your Password" />
+                                        <label>PASSWORD</label>
+                                        <span asp-validation-for="User.PASSWORD" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="User.ConfirmPassword" class="form-control" type="password" placeholder="Enter your ConfirmPassword" />
+                                        <label>ConfirmPassword</label>
+                                        <span asp-validation-for="User.ConfirmPassword" class="text-danger"></span>
+                                    </div>
+                                    @*                                     <div class="form-group">
+                                    <label asp-for="User.USERID" class="control-label"></label>
+                                    <input asp-for="User.USERID" class="form-control" />
+                                    <span asp-validation-for="User.USERID" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                    <label asp-for="User.NICKNAME" class="control-label"></label>
+                                    <input asp-for="User.NICKNAME" class="form-control" />
+                                    <span asp-validation-for="User.NICKNAME" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                    <label asp-for="User.EMAIL" class="control-label"></label>
+                                    <input asp-for="User.EMAIL" class="form-control" />
+                                    <span asp-validation-for="User.EMAIL" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                    <label asp-for="User.PASSWORD" class="control-label"></label>
+                                    <input asp-for="User.PASSWORD" class="form-control" />
+                                    <span asp-validation-for="User.PASSWORD" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                    <label>비밀번호 확인</label>
+                                    <input asp-for="User.ConfirmPassword" class="form-control" />
+                                    <span asp-validation-for="User.ConfirmPassword" class="text-danger"></span>
+                                    </div> *@
+                                    <div class="mt-4 mb-0">
+                                        @* <div class="d-grid"><a class="btn btn-primary btn-block" href="login.html">Create Account</a></div> *@
+                                        <div class="d-grid"><input type="submit" value="Create Account" class="btn btn-primary" /></a></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer text-center py-3">
+                                <div class="small"><a href="login.html">Have an account? Go to login</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

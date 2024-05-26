@@ -1,0 +1,60 @@
+﻿@page
+@model CraftX.Pages.UserManagement.UserManagementEditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="User.USERID" />
+            <div class="form-group">
+                <label asp-for="User.NICKNAME" class="control-label"></label>
+                <input asp-for="User.NICKNAME" class="form-control" />
+                <span asp-validation-for="User.NICKNAME" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.EMAIL" class="control-label"></label>
+                <input asp-for="User.EMAIL" class="form-control" />
+                <span asp-validation-for="User.EMAIL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.PASSWORD" class="control-label"></label>
+                <input asp-for="User.PASSWORD" class="form-control" />
+                <span asp-validation-for="User.PASSWORD" class="text-danger"></span>
+            </div>
+@*             <div class="form-group">
+                <label asp-for="User.JOINDATE" class="control-label"></label>
+                <input asp-for="User.JOINDATE" class="form-control" />
+                <span asp-validation-for="User.JOINDATE" class="text-danger"></span>
+            </div> *@
+@*             <div class="form-group">
+                <label asp-for="User.USERAUTH" class="control-label"></label>
+                <select asp-for="User.USERAUTH" class="form-control"></select>
+                <span asp-validation-for="User.USERAUTH" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.PROFILEPICTUREPATH" class="control-label"></label>
+                <input asp-for="User.PROFILEPICTUREPATH" class="form-control" />
+                <span asp-validation-for="User.PROFILEPICTUREPATH" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./UserManagementList">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
