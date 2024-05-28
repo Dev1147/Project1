@@ -502,3 +502,4 @@ C:\Users\river\Desktop\Project\CraftX\CraftX\obj\Debug\net8.0\refint\CraftX.dll
 C:\Users\river\Desktop\Project\CraftX\CraftX\obj\Debug\net8.0\CraftX.pdb
 C:\Users\river\Desktop\Project\CraftX\CraftX\obj\Debug\net8.0\CraftX.genruntimeconfig.cache
 C:\Users\river\Desktop\Project\CraftX\CraftX\obj\Debug\net8.0\ref\CraftX.dll
+C:\Users\river\Desktop\Project\CraftX\CraftX\obj\Debug\net8.0\CraftX.sourcelink.json
