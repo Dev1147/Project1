@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using CraftX.Class;
+using System.Xml.Linq;
 
 namespace CraftX.Pages.UserManagements
 {
@@ -19,7 +20,7 @@ namespace CraftX.Pages.UserManagements
         }
 
         [BindProperty]
-        public User User { get; set; } = default!;
+        public User Users { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -36,7 +37,7 @@ namespace CraftX.Pages.UserManagements
             }
             else
             {
-                User = user;
+                Users = user;
             }
             return Page();
         }
@@ -51,8 +52,8 @@ namespace CraftX.Pages.UserManagements
             var user = await _context.TBL_USERS.FindAsync(id);
             if (user != null)
             {
-                User = user;
-                _context.TBL_USERS.Remove(User);
+                Users = user;
+                _context.TBL_USERS.Remove(Users);
                 await _context.SaveChangesAsync();
             }
 

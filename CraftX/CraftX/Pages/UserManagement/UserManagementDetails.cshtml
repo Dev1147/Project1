@@ -12,28 +12,28 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.NICKNAME)
+            @Html.DisplayNameFor(model => model.Users.NICKNAME)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.NICKNAME)
+            @Html.DisplayFor(model => model.Users.NICKNAME)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.EMAIL)
+            @Html.DisplayNameFor(model => model.Users.EMAIL)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.EMAIL)
+            @Html.DisplayFor(model => model.Users.EMAIL)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.PASSWORD)
+            @Html.DisplayNameFor(model => model.Users.PASSWORD)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.PASSWORD)
+            @Html.DisplayFor(model => model.Users.PASSWORD)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.JOINDATE)
+            @Html.DisplayNameFor(model => model.Users.JOINDATE)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.JOINDATE)
+            @Html.DisplayFor(model => model.Users.JOINDATE)
         </dd>
 @*         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.User.USERAUTH)
@@ -50,6 +50,6 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./UserManagementEdit" asp-route-id="@Model.User.USERID">Edit</a> |
+    <a asp-page="./UserManagementEdit" asp-route-id="@Model.Users.USERID">Edit</a> |
     <a asp-page="./UserManagementList">Back to List</a>
 </div>

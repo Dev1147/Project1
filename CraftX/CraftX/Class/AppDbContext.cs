@@ -14,7 +14,8 @@ namespace CraftX.Class
 
         }
 
-        // 데이터베이스 테이블에 해당하는 DbSet 속성 정의
+        // 데이터베이스 테이블에 해당하는 DbSet<클래스생성> DB테이블명 속성 정의
         public DbSet<User> TBL_USERS { get; set; }
+        public DbSet<InternalMemos> TBL_InternalMemos { get; set; }
     }
 }

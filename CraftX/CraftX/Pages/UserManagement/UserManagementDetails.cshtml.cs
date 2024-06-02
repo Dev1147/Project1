@@ -18,7 +18,7 @@ namespace CraftX.Pages.UserManagement
             _context = context;
         }
 
-        public User User { get; set; } = default!;
+        public User Users { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -34,7 +34,7 @@ namespace CraftX.Pages.UserManagement
             }
             else
             {
-                User = user;
+                Users = user;
             }
             return Page();
         }

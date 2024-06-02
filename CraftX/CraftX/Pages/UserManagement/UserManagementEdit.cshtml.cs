@@ -20,7 +20,7 @@ namespace CraftX.Pages.UserManagement
         }
 
         [BindProperty]
-        public User User { get; set; } = default!;
+        public User Users { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(string id)
         {
@@ -34,7 +34,7 @@ namespace CraftX.Pages.UserManagement
             {
                 return NotFound();
             }
-            User = user;
+            Users = user;
             return Page();
         }
 
@@ -55,7 +55,7 @@ namespace CraftX.Pages.UserManagement
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UserExists(User.USERID))
+                if (!UserExists(Users.USERID))
                 {
                     return NotFound();
                 }

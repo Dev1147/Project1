@@ -6,6 +6,7 @@ namespace CraftX.Class
 {
     public class User
     {
+        [Key]
         [MinLength(6, ErrorMessage = "사용자 아이디는 6자 이상 입력하세요.")]
         [Display(Name = "사용자 아이디")]
         [Required(ErrorMessage = "아이디 필드는 필수입니다.")]

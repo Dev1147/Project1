@@ -26,7 +26,7 @@ namespace CraftX.Pages.UserManagement
         }
 
         [BindProperty]
-        public User User { get; set; } = default!;
+        public User Users { get; set; } = default!;
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
@@ -38,7 +38,7 @@ namespace CraftX.Pages.UserManagement
                 return Page();
             }
 
-            _context.TBL_USERS.Add(User);
+            _context.TBL_USERS.Add(Users);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./UserManagementList");

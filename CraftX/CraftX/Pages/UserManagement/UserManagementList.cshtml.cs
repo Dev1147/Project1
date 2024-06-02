@@ -18,11 +18,11 @@ namespace CraftX.Pages.UserManagement
             _context = context;
         }
 
-        public IList<User> User { get;set; } = default!;
+        public IList<User> Users { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            User = await _context.TBL_USERS.OrderByDescending(u => u.JOINDATE).ToListAsync(); //LinQ로 내림차순 하기
+            Users = await _context.TBL_USERS.OrderByDescending(u => u.JOINDATE).ToListAsync(); //LinQ로 내림차순 하기
         }
     }
 }
