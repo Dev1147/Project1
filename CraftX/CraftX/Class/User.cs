@@ -40,6 +40,9 @@ namespace CraftX.Class
 
         [NotMapped]
         public string? PROFILEPICTUREPATH { get; set; } // 파일 경로 저장
+
+        [NotMapped]
+        public int RowNumber { get; set; }
     }
 
     public enum UserRole

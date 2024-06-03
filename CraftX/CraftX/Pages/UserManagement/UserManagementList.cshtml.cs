@@ -22,7 +22,20 @@ namespace CraftX.Pages.UserManagement
 
         public async Task OnGetAsync()
         {
-            Users = await _context.TBL_USERS.OrderByDescending(u => u.JOINDATE).ToListAsync(); //LinQ로 내림차순 하기
+            //Users = await _context.TBL_USERS.OrderByDescending(u => u.JOINDATE).ToListAsync(); //LinQ로 내림차순 하기
+
+            // 서버에서 데이터를 가져옴
+            var query = await _context.TBL_USERS.OrderByDescending(u => u.JOINDATE).ToListAsync();
+
+            // 클라이언트 쪽에서 행 번호를 추가
+            Users = query.Select((x, index) => new User
+            {
+                RowNumber = index + 1, // 행 번호는 1부터 시작
+                NICKNAME = x.NICKNAME,
+                EMAIL = x.EMAIL,
+                JOINDATE = x.JOINDATE,
+                USERAUTH = x.USERAUTH
+            }).ToList(); //메모리안에서
         }
     }
 }

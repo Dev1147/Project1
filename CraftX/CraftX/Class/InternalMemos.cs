@@ -14,5 +14,8 @@ namespace CraftX.Class
         public string Content { get; set; }
         public DateTime CreatedDate { get; set; }
         public string Writer { get; set; }
+
+        [NotMapped]
+        public int RowNumber { get; set; }
     }
 }

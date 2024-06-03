@@ -2,6 +2,7 @@ using CraftX.Class;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace CraftX.Pages
 {
@@ -26,12 +27,33 @@ namespace CraftX.Pages
         //}
         public async Task OnGetAsync()
         {
-            InternalMemo = await _context.TBL_InternalMemos.OrderByDescending(u => u.MemoID).ToListAsync(); //LinQ로 내림차순 하기
-            //InternalMemo = await _context.TBL_InternalMemos
-            //    .Select((x, index) => new { InternalMemo = x, RowNumber = index + 1 }) // row_number를 추가
-            //    .OrderByDescending(x => x.InternalMemo.MemoID) // MemoID를 기준으로 내림차순 정렬
-            //    .Select(x => x.InternalMemo) // row_number를 추가한 후 필요 없어진 속성 제거
-            //    .ToListAsync();
+            //InternalMemo = await _context.TBL_InternalMemos.OrderByDescending(u => u.MemoID).Take(5).ToListAsync(); //LinQ로 5개 고정하고 내림차순 하기
+            
+            //InternalMemo = await _context.TBL_InternalMemos.OrderByDescending(u => u.CreatedDate) //내림차순
+            //                    .Take(5) // 5개만 뽑기
+            //                    .Select((x, index) => new InternalMemos
+            //                    {
+            //                        RowNumber = index + 1,
+            //                        Title = x.Title,
+            //                        CreatedDate = x.CreatedDate,
+            //                        Writer = x.Writer
+            //                    })
+            //                    .ToListAsync(); //데이터 베이스에서
+            // 가공해야 되어 안되는건가??
+
+
+            // 서버에서 데이터를 가져옴
+            var query = await _context.TBL_InternalMemos.OrderByDescending(u => u.CreatedDate).Take(5).ToListAsync();
+
+            // 클라이언트 쪽에서 행 번호를 추가
+            InternalMemo = query.Select((x, index) => new InternalMemos
+            {
+                RowNumber = index + 1, // 행 번호는 1부터 시작
+                Title = x.Title,
+                CreatedDate = x.CreatedDate,
+                Writer = x.Writer
+            }).ToList(); //메모리안에서
+
         }
     }
 }

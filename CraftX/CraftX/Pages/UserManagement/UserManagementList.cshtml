@@ -34,6 +34,7 @@
                     <table id="datatablesSimple">
                         <thead>
                             <tr>
+                                <th>번호</th>
                                 <th>닉네임</th>
                                 <th>이메일</th>
                                 <th>가입 날짜</th>
@@ -43,6 +44,7 @@
                         </thead>
                         <tfoot>
                             <tr>
+                                <th>번호</th>
                                 <th>닉네임</th>
                                 <th>이메일</th>
                                 <th>가입 날짜</th>
@@ -54,6 +56,9 @@
                             @foreach (var item in Model.Users)
                             {
                                 <tr>
+                                    <td>
+                                        @item.RowNumber
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.NICKNAME)
                                         @* @item.NICKNAME *@

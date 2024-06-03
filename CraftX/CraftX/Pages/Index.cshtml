@@ -62,6 +62,7 @@
                     <table id="datatablesSimple">
                         <thead>
                             <tr>
+                                <th>번호</th>
                                 <th>제목</th>
                                 <th>날짜</th>
                                 <th>작성자</th>
@@ -69,6 +70,7 @@
                         </thead>
                         <tfoot>
                             <tr>
+                                <th>번호</th>
                                 <th>제목</th>
                                 <th>날짜</th>
                                 <th>작성자</th>
@@ -78,6 +80,9 @@
                             @foreach (var item in Model.InternalMemo)
                             {
                                 <tr>
+                                    <td>
+                                        @item.RowNumber
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.Title)
                                         @* @item.NICKNAME *@
@@ -124,6 +129,7 @@
                     <table id="datatablesSimple2">
                         <thead>
                             <tr>
+                                <th>번호</th>
                                 <th>제목</th>
                                 <th>날짜</th>
                                 <th>작성자</th>
@@ -131,6 +137,7 @@
                         </thead>
                         <tfoot>
                             <tr>
+                                <th>번호</th>
                                 <th>제목</th>
                                 <th>날짜</th>
                                 <th>작성자</th>
@@ -140,6 +147,9 @@
                             @foreach (var item in Model.InternalMemo)
                             {
                                 <tr>
+                                    <td>
+                                        @item.RowNumber
+                                    </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.Title)
                                         @* @item.NICKNAME *@
