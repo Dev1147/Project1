@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CraftX.Class
 {
-    public class InternalMemos
+    public class InternalMemo
     {
         [Key]
         public string MemoID { get; set; }

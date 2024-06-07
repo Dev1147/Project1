@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\CraftX.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\dataJs\\defectRate-chart-bar-data.js",
+      "PackagePath": "staticwebassets\\assets\\dataJs\\defectRate-chart-bar-data.js"
+    },
+    {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
       "Id": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
