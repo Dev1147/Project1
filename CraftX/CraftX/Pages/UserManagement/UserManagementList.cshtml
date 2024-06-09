@@ -61,7 +61,7 @@
                                     </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.NICKNAME)
-                                        @* @item.NICKNAME *@
+                                       @*  <a asp-page="./UserManagementDetails" asp-route-id="@item.USERID">@Html.DisplayFor(modelItem => item.NICKNAME)</a>  *@
                                     </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.EMAIL)
@@ -82,6 +82,7 @@
                                         <a asp-page="./UserManagementEdit" asp-route-id="@item.USERID">Edit</a> |
                                         <a asp-page="./UserManagementDetails" asp-route-id="@item.USERID">Details</a> |
                                         <a asp-page="./UserManagementDelete" asp-route-id="@item.USERID">Delete</a>
+                                        @* <a asp-page-handler="Delete" asp-route-id="@item.USERID" id="delCheck">Delete</a> *@
                                     </td>
                                 </tr>
                             }

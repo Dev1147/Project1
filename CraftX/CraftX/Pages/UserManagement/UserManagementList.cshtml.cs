@@ -45,6 +45,7 @@ namespace CraftX.Pages.UserManagement
             Users = userList.AsEnumerable().Select((x, index) => new User
             {
                 RowNumber = index + 1, // 행 번호는 1부터 시작
+                USERID = x.USERID,
                 NICKNAME = x.NICKNAME,
                 EMAIL = x.EMAIL,
                 JOINDATE = x.JOINDATE,

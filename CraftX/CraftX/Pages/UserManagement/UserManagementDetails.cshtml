@@ -4,52 +4,52 @@
 @{
     ViewData["Title"] = "Details";
 }
-
-<h1>Details</h1>
-
-<div>
-    <h4>User</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Users.NICKNAME)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Users.NICKNAME)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Users.EMAIL)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Users.EMAIL)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Users.PASSWORD)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Users.PASSWORD)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Users.JOINDATE)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Users.JOINDATE)
-        </dd>
-@*         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.USERAUTH)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.USERAUTH)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.PROFILEPICTUREPATH)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.PROFILEPICTUREPATH)
-        </dd> *@
-    </dl>
-</div>
-<div>
-    <a asp-page="./UserManagementEdit" asp-route-id="@Model.Users.USERID">Edit</a> |
-    <a asp-page="./UserManagementList">Back to List</a>
+<div class="container-fluid px-4">
+    <h1>Details</h1>
+    <div>
+        <h4>User</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Users.NICKNAME)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Users.NICKNAME)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Users.EMAIL)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Users.EMAIL)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Users.PASSWORD)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Users.PASSWORD)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Users.JOINDATE)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Users.JOINDATE)
+            </dd>
+    @*         <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.User.USERAUTH)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.User.USERAUTH)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.User.PROFILEPICTUREPATH)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.User.PROFILEPICTUREPATH)
+            </dd> *@
+        </dl>
+    </div>
+    <div>
+        <a asp-page="./UserManagementEdit" asp-route-id="@Model.Users.USERID">Edit</a> |
+        <a asp-page="./UserManagementList">Back to List</a>
+    </div>
 </div>

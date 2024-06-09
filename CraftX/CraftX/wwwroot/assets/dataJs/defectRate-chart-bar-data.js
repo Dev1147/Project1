@@ -24,7 +24,7 @@ function getDataAndDrawChart() {
                 const data = JSON.parse(text);
                // console.log("Data received:", data);
                 //alert(JSON.stringify(data));
-                console.log("한글이 포함된 자바스크립트 파일입니다.");
+               // console.log("한글이 포함된 자바스크립트 파일입니다.");
                 //var rates = data.map(item => item.rate);
                 //var rates2 = data.map(item => item.dateRecorded); //대소문자 구분함!
                 //alert(JSON.stringify(rates));

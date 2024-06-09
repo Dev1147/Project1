@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\river\\Desktop\\Project\\CraftX\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\wwwroot\\assets\\datajs\\defectrate-chart-bar-data.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\wwwroot\\assets\\datajs\\defectrate-chart-bar-data.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\usermanagement\\usermanagementdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|solutionrelative:craftx\\pages\\usermanagement\\usermanagementdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13EE238F-3710-48DC-B4C6-14C1D8D54107}|CraftX\\CraftX.csproj|c:\\users\\river\\desktop\\project\\craftx\\craftx\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +58,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "UserManagementEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementEdit.cshtml",
+              "RelativeDocumentMoniker": "CraftX\\Pages\\UserManagement\\UserManagementEdit.cshtml",
+              "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementEdit.cshtml",
+              "RelativeToolTip": "CraftX\\Pages\\UserManagement\\UserManagementEdit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T10:39:28.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserManagementDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementDetails.cshtml",
+              "RelativeDocumentMoniker": "CraftX\\Pages\\UserManagement\\UserManagementDetails.cshtml",
+              "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementDetails.cshtml",
+              "RelativeToolTip": "CraftX\\Pages\\UserManagement\\UserManagementDetails.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T10:38:50.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserManagementCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementCreate.cshtml",
+              "RelativeDocumentMoniker": "CraftX\\Pages\\UserManagement\\UserManagementCreate.cshtml",
+              "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementCreate.cshtml",
+              "RelativeToolTip": "CraftX\\Pages\\UserManagement\\UserManagementCreate.cshtml",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAEAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T10:38:00.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManagementDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementDelete.cshtml",
+              "RelativeDocumentMoniker": "CraftX\\Pages\\UserManagement\\UserManagementDelete.cshtml",
+              "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementDelete.cshtml",
+              "RelativeToolTip": "CraftX\\Pages\\UserManagement\\UserManagementDelete.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T10:32:43.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserManagementList.cshtml",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementList.cshtml",
               "RelativeDocumentMoniker": "CraftX\\Pages\\UserManagement\\UserManagementList.cshtml",
               "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\UserManagement\\UserManagementList.cshtml",
               "RelativeToolTip": "CraftX\\Pages\\UserManagement\\UserManagementList.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvxwAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T11:35:50.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:35:50.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DefectRate.cs",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Class\\DefectRate.cs",
               "RelativeDocumentMoniker": "CraftX\\Class\\DefectRate.cs",
@@ -67,12 +130,11 @@
               "RelativeToolTip": "CraftX\\Class\\DefectRate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:56:36.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T10:56:36.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Class\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CraftX\\Class\\AppDbContext.cs",
@@ -80,12 +142,11 @@
               "RelativeToolTip": "CraftX\\Class\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T06:20:17.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T06:20:17.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Program.cs",
               "RelativeDocumentMoniker": "CraftX\\Program.cs",
@@ -93,12 +154,11 @@
               "RelativeToolTip": "CraftX\\Program.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAEwCcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T01:14:48.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T01:14:48.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CraftX\\Pages\\Index.cshtml.cs",
@@ -106,47 +166,44 @@
               "RelativeToolTip": "CraftX\\Pages\\Index.cshtml.cs",
               "ViewState": "AQIAABMAAAAAAAAAAIAxwGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T13:37:58.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:37:58.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "CraftX\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\Index.cshtml",
               "RelativeToolTip": "CraftX\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAswLcAAAAaAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAswLEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T14:24:12.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T14:24:12.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CraftX\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CraftX\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAUAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-06T14:09:56.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "defectRate-chart-bar-data.js",
               "DocumentMoniker": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\dataJs\\defectRate-chart-bar-data.js",
               "RelativeDocumentMoniker": "CraftX\\wwwroot\\assets\\dataJs\\defectRate-chart-bar-data.js",
               "ToolTip": "C:\\Users\\river\\Desktop\\Project\\CraftX\\CraftX\\wwwroot\\assets\\dataJs\\defectRate-chart-bar-data.js",
               "RelativeToolTip": "CraftX\\wwwroot\\assets\\dataJs\\defectRate-chart-bar-data.js",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAAwIQAAAAcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-06T13:37:54.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T13:37:54.913Z"
             }
           ]
         }
