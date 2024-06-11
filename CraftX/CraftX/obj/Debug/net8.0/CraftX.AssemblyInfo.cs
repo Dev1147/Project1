@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CraftX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a9a89e3ddc7083a42e7a3ca5ab4f6eb6b975384")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f663ab6e1be876b6cdeef43736dc0d676720d27")]
 [assembly: System.Reflection.AssemblyProductAttribute("CraftX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CraftX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
